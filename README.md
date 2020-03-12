@@ -2,6 +2,8 @@
 <img src="fssim_doc/img/fssim_logo.png">
 </p>
 
+This repository is a fork of - [AMZ Driverless FSSIM](https://github.com/AMZ-Driverless/fssim)
+
 # FSSIM 
 FSSIM is a vehicle simulator dedicated for Formula Student Driverless Competition. It was developed for autonomous software testing purposes and not for gaming. A version of this simulator was used to predict **lap time of *gotthard* at FSG 2018** trackdrive with **1% accuracy**. 
 
