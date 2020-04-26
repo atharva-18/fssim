@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 #
-# AMZ-Driverless
-# Copyright (c) 2018 Authors:
-#   - Juraj Kabzan <kabzanj@gmail.com>
+# DJSRacing Driverless
+# Copyright (c) 2020 Authors:
+#   - Atharva Pusalkar  <atharvapusalkar18@gmail.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

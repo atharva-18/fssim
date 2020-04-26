@@ -1,9 +1,7 @@
 /*
- * AMZ-Driverless
- * Copyright (c) 2018 Authors:
- *   - Juraj Kabzan <kabzanj@gmail.com>
- *   - Miguel de la Iglesia Valls <dmiguel@ethz.ch>
- *   - Manuel Dangel <mdangel@student.ethz.ch>
+ * DJSRacing Driverless
+ * Copyright (c) 2020 Authors:
+ *   - Atharva Pusalkar <atharvapusalkar18@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

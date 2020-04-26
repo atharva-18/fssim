@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Juraj Kabzan <kabzanj@ethz.ch> - AMZ Driverless 2018
-# Adapted from work by Huub Hendrikx <hhendrik@ethz.ch>
-
+# Atharva Pusalkar <atharvapusalkar18@gmail.com> - DJSRacing Driverless 2020
 
 # TODO: check whether cpplint is installed
 CPPLINT_PACKAGE="cpplint"
@@ -20,7 +18,7 @@ end=$'\e[0m'
 
 printf "\n"
 printf "FSSIM dependency updater\n"
-printf "Version 2.0 - 2018"
+printf "Version 2.0 - 2020"
 printf "\n\n"
 
 ###############################################
@@ -39,7 +37,7 @@ if [[ $REPLY =~ ^[Yy]$ ]] || [ -z $REPLY ]; then
     		sudo apt install git-lfs
     	fi
     fi
-    # Place our AMZ dependencies in the rosdep sources folder
+    # Place our dependencies in the rosdep sources folder
     printf "\n\nCopying FSSIM's ROS dependency list to rosdep sources folder\n"
     printf "Target folder: ${ROSDEP_SOURCES_TARGET}\n"
     printf "Sudo might ask for your password now!\n"
