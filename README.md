@@ -29,7 +29,7 @@ The more extensive tutorial can be found under [Wiki](fssim_doc/index.md)
     sudo apt install python-pip
     sudo apt upgrade libignition-math2
     pip install shapely
-    pip install python-wstool
+    pip install wstool
     ```
 
 5. Execute - 
