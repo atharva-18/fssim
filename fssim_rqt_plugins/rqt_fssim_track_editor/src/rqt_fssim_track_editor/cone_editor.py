@@ -204,25 +204,25 @@ class TrackViewScene(QGraphicsScene):
             include = etree.SubElement(model, "include")
             etree.SubElement(include, "uri").text = "model://fssim_gazebo/models/cone_blue"
             etree.SubElement(include, "pose").text = self.track.get_cone_pos(Type.RIGHT, i)
-            etree.SubElement(include, "name").text = "cone_right"
+            etree.SubElement(include, "name").text = "cone_right_" + str(i)
 
         for i in range(0, self.track.get_size(Type.LEFT)):
             include = etree.SubElement(model, "include")
             etree.SubElement(include, "uri").text = "model://fssim_gazebo/models/cone_yellow"
             etree.SubElement(include, "pose").text = self.track.get_cone_pos(Type.LEFT, i)
-            etree.SubElement(include, "name").text = "cone_left"
+            etree.SubElement(include, "name").text = "cone_left_" + str(i)
 
         for i in range(0, self.track.get_size(Type.ORANGE)):
             include = etree.SubElement(model, "include")
             etree.SubElement(include, "uri").text = "model://fssim_gazebo/models/cone_orange"
             etree.SubElement(include, "pose").text = self.track.get_cone_pos(Type.ORANGE, i)
-            etree.SubElement(include, "name").text = "cone_orange"
+            etree.SubElement(include, "name").text = "cone_orange_" + str(i)
 
         for i in range(0, self.track.get_size(Type.ORANGE_BIG)):
             include = etree.SubElement(model, "include")
             etree.SubElement(include, "uri").text = "model://fssim_gazebo/models/cone_orange_big"
             etree.SubElement(include, "pose").text = self.track.get_cone_pos(Type.ORANGE_BIG, i)
-            etree.SubElement(include, "name").text = "cone_orange_big"
+            etree.SubElement(include, "name").text = "cone_orange_big_" + str(i)
 
         for i in range(0, self.track.get_size(Type.TK_DEVICE)):
             include = etree.SubElement(model, "include")
