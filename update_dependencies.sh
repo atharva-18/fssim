@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Atharva Pusalkar <atharvapusalkar18@gmail.com> - DJSRacing Driverless 2020
+# Juraj Kabzan <kabzanj@ethz.ch> - AMZ Driverless 2018
+# Atharva Pusalkar <atharvapusalkar18@gmail.com> - DJS Racing Driverless 2020
+# Adapted from work by Huub Hendrikx <hhendrik@ethz.ch>
 
 # TODO: check whether cpplint is installed
 CPPLINT_PACKAGE="cpplint"

@@ -3,6 +3,7 @@
   <name>fssim_description</name>
   <version>0.0.0</version>
   <description>The fssim_description package</description>
+  <maintainer email="kabzanj@gmail.com">Juraj Kabzan</maintainer>
   <maintainer email="atharvapusalkar18@gmail.com">Atharva Pusalkar</maintainer>
 
   <license>MIT</license>

@@ -1,5 +1,10 @@
 /*
- * DJSRacing Driverless Project
+ * AMZ Driverless Project
+ *
+ * Copyright (c) 2018 Authors:
+ *   - Nikhil Bharadwaj Gosala <gosalan@ethz.ch>
+ *
+ * DJS Racing Driverless
  *
  * Copyright (c) 2020 Authors:
  *   - Atharva Pusalkar <atharvapusalkar18@gmail.com>

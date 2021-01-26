@@ -1,4 +1,5 @@
 FROM ros:kinetic-ros-base-xenial
+MAINTAINER britss@ethz.ch
 MAINTAINER atharvapusalkar18@gmail.com
 
 RUN apt update && apt install sudo linux-headers-$(uname -r) software-properties-common python-catkin-tools pylint cppcheck build-essential rsync checkinstall -y
